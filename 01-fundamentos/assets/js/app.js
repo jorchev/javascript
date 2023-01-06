@@ -1,4 +1,7 @@
 
+console.log( miNuevoNombre + ' Ramos' );
+
+
 // alert('Hola desde app.js');
 
 // console.log('Hola Mundo');
@@ -20,4 +23,11 @@ c = 'Hola de nuevo';
 
 // console.table({ a, b, c, d, x });
 
-var miNombre = 'Jorge';
+// var outerWidth = 1000000;
+// var outerHeight = 400;
+let outerWidth = 1000000;
+const outerHeight = 400;
+
+
+// var miNuevoNombre = "Jorge Vega";
+let miNuevoNombre = "Jorge Vega";
