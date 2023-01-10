@@ -1,6 +1,12 @@
 function saludar( nombre ) {
-    console.log( arguments );
-    console.log( 'Hola ' + nombre );
+    // console.log( arguments );
+    // console.log( 'Hola ' + nombre );
+
+    return [1,2];
+
+    // Esto nunca se va a ejecutar
+    console.log( 'Soy un código que está después del return' );
+
 }
 
 const saludar2 = function( nombre ) {
@@ -16,10 +22,27 @@ const saludarFlecha2 = ( nombre ) => {
     console.log('Hola ' + nombre);
 }
 
-saludar( 'Jorge', 36, true, 'México' );
+// saludar( 'Jorge', 36, true, 'México' );
 // saludar2( 'Jorge' );
 
-saludarFlecha();
-saludarFlecha2( 'Melissa' );
+// saludarFlecha();
+// saludarFlecha2( 'Melissa' );
+
+function sumar ( a, b ){
+    return a + b;
+}
+
+// const sumar2 = ( a, b ) => {
+//     return a + b;
+// }
+
+const sumar2 = ( a, b ) => a + b;
+
+function getAleatorio(){
+    return Math.random();
+}
+
+const getAleatorio2 = () => Math.random();
+console.log( getAleatorio2() );
 
 
